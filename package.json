@@ -1,0 +1,19 @@
+{
+  "name": "type-help",
+  "version": "1.0.0",
+  "description": "A small library for typescript schema validation",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "files": [
+    "lib"
+  ],
+  "author": "Jakub Smolaga",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
