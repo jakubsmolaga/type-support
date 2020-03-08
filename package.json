@@ -1,7 +1,7 @@
 {
-  "name": "typehelp",
+  "name": "type-support",
   "version": "1.0.0",
-  "repository": "https://github.com/smolagakuba/typehelp",
+  "repository": "https://github.com/smolagakuba/type-support",
   "description": "A small library for typescript schema validation",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
