@@ -1,6 +1,6 @@
 {
   "name": "type-support",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/smolagakuba/type-support",
   "description": "A small library for typescript schema validation",
   "main": "lib/index.js",
