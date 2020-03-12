@@ -70,5 +70,5 @@ const getCustomHelpers = <T>(schema: any, verifyFunc: VerifyFunction): Helpers<T
 export const getHelpers = <T>(schema: any): Helpers<T> =>
   getCustomHelpers<T>(schema, (o, s) => verifySchema(o, s))
 
-export const getPartialHelpers = <T>(schema: any): Helpers<T> =>
-  getCustomHelpers<T>(schema, (o, s) => verifySchema(o, s, true))
+export const getPartialHelpers = <T>(schema: any): Helpers<Partial<T>> =>
+  getCustomHelpers<Partial<T>>(schema, (o, s) => verifySchema(o, s, true))
